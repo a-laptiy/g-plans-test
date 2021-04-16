@@ -1,0 +1,559 @@
+/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+@font-face {
+  font-family: 'Greycliff CF';
+  src: url(assets/fonts/GreycliffCF-Bold.eot);
+  src: local('Greycliff CF Bold'), local('GreycliffCF-Bold'),
+      url(assets/fonts/GreycliffCF-Bold.eot?#iefix) format('embedded-opentype'),
+      url(assets/fonts/GreycliffCF-Bold.woff2) format('woff2'),
+      url(assets/fonts/GreycliffCF-Bold.woff) format('woff'),
+      url(assets/fonts/GreycliffCF-Bold.ttf) format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Greycliff CF Medium Oblique';
+  src: url(assets/fonts/GreycliffCF-MediumOblique.eot);
+  src: local('Greycliff CF Medium Oblique'), local('GreycliffCF-MediumOblique'),
+      url(assets/fonts/GreycliffCF-MediumOblique.eot?#iefix) format('embedded-opentype'),
+      url(assets/fonts/GreycliffCF-MediumOblique.woff2) format('woff2'),
+      url(assets/fonts/GreycliffCF-MediumOblique.woff) format('woff'),
+      url(assets/fonts/GreycliffCF-MediumOblique.ttf) format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Greycliff CF';
+  src: url(assets/fonts/GreycliffCF-Light.eot);
+  src: local('Greycliff CF Light'), local('GreycliffCF-Light'),
+      url(assets/fonts/GreycliffCF-Light.eot?#iefix) format('embedded-opentype'),
+      url(assets/fonts/GreycliffCF-Light.woff2) format('woff2'),
+      url(assets/fonts/GreycliffCF-Light.woff) format('woff'),
+      url(assets/fonts/GreycliffCF-Light.ttf) format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Greycliff CF';
+  src: url(assets/fonts/GreycliffCF-Heavy.eot);
+  src: local('Greycliff CF Heavy'), local('GreycliffCF-Heavy'),
+      url(assets/fonts/GreycliffCF-Heavy.eot?#iefix) format('embedded-opentype'),
+      url(assets/fonts/GreycliffCF-Heavy.woff2) format('woff2'),
+      url(assets/fonts/GreycliffCF-Heavy.woff) format('woff'),
+      url(assets/fonts/GreycliffCF-Heavy.ttf) format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Greycliff CF Extra Light Oblique';
+  src: url(assets/fonts/GreycliffCF-ExtraLightOblique.eot);
+  src: local('Greycliff CF Extra Light Oblique'), local('GreycliffCF-ExtraLightOblique'),
+      url(assets/fonts/GreycliffCF-ExtraLightOblique.eot?#iefix) format('embedded-opentype'),
+      url(assets/fonts/GreycliffCF-ExtraLightOblique.woff2) format('woff2'),
+      url(assets/fonts/GreycliffCF-ExtraLightOblique.woff) format('woff'),
+      url(assets/fonts/GreycliffCF-ExtraLightOblique.ttf) format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Greycliff CF Extra Bold Oblique';
+  src: url(assets/fonts/GreycliffCF-ExtraBoldOblique.eot);
+  src: local('Greycliff CF Extra Bold Oblique'), local('GreycliffCF-ExtraBoldOblique'),
+      url(assets/fonts/GreycliffCF-ExtraBoldOblique.eot?#iefix) format('embedded-opentype'),
+      url(assets/fonts/GreycliffCF-ExtraBoldOblique.woff2) format('woff2'),
+      url(assets/fonts/GreycliffCF-ExtraBoldOblique.woff) format('woff'),
+      url(assets/fonts/GreycliffCF-ExtraBoldOblique.ttf) format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Greycliff CF Extra';
+  src: url(assets/fonts/GreycliffCF-ExtraLight.eot);
+  src: local('Greycliff CF Extra Light'), local('GreycliffCF-ExtraLight'),
+      url(assets/fonts/GreycliffCF-ExtraLight.eot?#iefix) format('embedded-opentype'),
+      url(assets/fonts/GreycliffCF-ExtraLight.woff2) format('woff2'),
+      url(assets/fonts/GreycliffCF-ExtraLight.woff) format('woff'),
+      url(assets/fonts/GreycliffCF-ExtraLight.ttf) format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Greycliff CF Extra';
+  src: url(assets/fonts/GreycliffCF-ExtraBold.eot);
+  src: local('Greycliff CF Extra Bold'), local('GreycliffCF-ExtraBold'),
+      url(assets/fonts/GreycliffCF-ExtraBold.eot?#iefix) format('embedded-opentype'),
+      url(assets/fonts/GreycliffCF-ExtraBold.woff2) format('woff2'),
+      url(assets/fonts/GreycliffCF-ExtraBold.woff) format('woff'),
+      url(assets/fonts/GreycliffCF-ExtraBold.ttf) format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Greycliff CF Bold Oblique';
+  src: url(assets/fonts/GreycliffCF-BoldOblique.eot);
+  src: local('Greycliff CF Bold Oblique'), local('GreycliffCF-BoldOblique'),
+      url(assets/fonts/GreycliffCF-BoldOblique.eot?#iefix) format('embedded-opentype'),
+      url(assets/fonts/GreycliffCF-BoldOblique.woff2) format('woff2'),
+      url(assets/fonts/GreycliffCF-BoldOblique.woff) format('woff'),
+      url(assets/fonts/GreycliffCF-BoldOblique.ttf) format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Greycliff CF Light Oblique';
+  src: url(assets/fonts/GreycliffCF-LightOblique.eot);
+  src: local('Greycliff CF Light Oblique'), local('GreycliffCF-LightOblique'),
+      url(assets/fonts/GreycliffCF-LightOblique.eot?#iefix) format('embedded-opentype'),
+      url(assets/fonts/GreycliffCF-LightOblique.woff2) format('woff2'),
+      url(assets/fonts/GreycliffCF-LightOblique.woff) format('woff'),
+      url(assets/fonts/GreycliffCF-LightOblique.ttf) format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Greycliff CF Heavy Oblique';
+  src: url(assets/fonts/GreycliffCF-HeavyOblique.eot);
+  src: local('Greycliff CF Heavy Oblique'), local('GreycliffCF-HeavyOblique'),
+      url(assets/fonts/GreycliffCF-HeavyOblique.eot?#iefix) format('embedded-opentype'),
+      url(assets/fonts/GreycliffCF-HeavyOblique.woff2) format('woff2'),
+      url(assets/fonts/GreycliffCF-HeavyOblique.woff) format('woff'),
+      url(assets/fonts/GreycliffCF-HeavyOblique.ttf) format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Greycliff CF Demi Bold Oblique';
+  src: url(assets/fonts/GreycliffCF-DemiBoldOblique.eot);
+  src: local('Greycliff CF Demi Bold Oblique'), local('GreycliffCF-DemiBoldOblique'),
+      url(assets/fonts/GreycliffCF-DemiBoldOblique.eot?#iefix) format('embedded-opentype'),
+      url(assets/fonts/GreycliffCF-DemiBoldOblique.woff2) format('woff2'),
+      url(assets/fonts/GreycliffCF-DemiBoldOblique.woff) format('woff'),
+      url(assets/fonts/GreycliffCF-DemiBoldOblique.ttf) format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Greycliff CF Demi';
+  src: url(assets/fonts/GreycliffCF-DemiBold.eot);
+  src: local('Greycliff CF Demi Bold'), local('GreycliffCF-DemiBold'),
+      url(assets/fonts/GreycliffCF-DemiBold.eot?#iefix) format('embedded-opentype'),
+      url(assets/fonts/GreycliffCF-DemiBold.woff2) format('woff2'),
+      url(assets/fonts/GreycliffCF-DemiBold.woff) format('woff'),
+      url(assets/fonts/GreycliffCF-DemiBold.ttf) format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Greycliff CF';
+  src: url(assets/fonts/GreycliffCF-Thin.eot);
+  src: local('Greycliff CF Thin'), local('GreycliffCF-Thin'),
+      url(assets/fonts/GreycliffCF-Thin.eot?#iefix) format('embedded-opentype'),
+      url(assets/fonts/GreycliffCF-Thin.woff2) format('woff2'),
+      url(assets/fonts/GreycliffCF-Thin.woff) format('woff'),
+      url(assets/fonts/GreycliffCF-Thin.ttf) format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Greycliff CF';
+  src: url(assets/fonts/GreycliffCF-Medium.eot);
+  src: local('Greycliff CF Medium'), local('GreycliffCF-Medium'),
+      url(assets/fonts/GreycliffCF-Medium.eot?#iefix) format('embedded-opentype'),
+      url(assets/fonts/GreycliffCF-Medium.woff2) format('woff2'),
+      url(assets/fonts/GreycliffCF-Medium.woff) format('woff'),
+      url(assets/fonts/GreycliffCF-Medium.ttf) format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Greycliff CF Thin Oblique';
+  src: url(assets/fonts/GreycliffCF-ThinOblique.eot);
+  src: local('Greycliff CF Thin Oblique'), local('GreycliffCF-ThinOblique'),
+      url(assets/fonts/GreycliffCF-ThinOblique.eot?#iefix) format('embedded-opentype'),
+      url(assets/fonts/GreycliffCF-ThinOblique.woff2) format('woff2'),
+      url(assets/fonts/GreycliffCF-ThinOblique.woff) format('woff'),
+      url(assets/fonts/GreycliffCF-ThinOblique.ttf) format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Greycliff CF';
+  src: url(assets/fonts/GreycliffCF-Regular.eot);
+  src: local('Greycliff CF'), local('GreycliffCF-Regular'),
+      url(assets/fonts/GreycliffCF-Regular.eot?#iefix) format('embedded-opentype'),
+      url(assets/fonts/GreycliffCF-Regular.woff2) format('woff2'),
+      url(assets/fonts/GreycliffCF-Regular.woff) format('woff'),
+      url(assets/fonts/GreycliffCF-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Greycliff CF Oblique';
+  src: url(assets/fonts/GreycliffCF-RegularOblique.eot);
+  src: local('Greycliff CF Oblique'), local('GreycliffCF-RegularOblique'),
+      url(assets/fonts/GreycliffCF-RegularOblique.eot?#iefix) format('embedded-opentype'),
+      url(assets/fonts/GreycliffCF-RegularOblique.woff2) format('woff2'),
+      url(assets/fonts/GreycliffCF-RegularOblique.woff) format('woff'),
+      url(assets/fonts/GreycliffCF-RegularOblique.ttf) format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+*,:after,:before{-webkit-box-sizing:border-box;box-sizing:border-box}html{font-family:Greycliff CF,-apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;font-size:14px;line-height:1.3;color:#000;overflow-wrap:break-word;word-wrap:break-word}@media (min-width:600px){html{font-size:16px}}audio,canvas,iframe,img,input,object,svg,textarea,video{vertical-align:middle;max-width:100%}img{height:auto}textarea{resize:vertical}button,input[type=submit]{cursor:pointer}figure{margin:0}h1,h2,h3,h4,h5,h6,p{margin-top:0}h1,h2,h3,h4,h5,h6{font-family:-apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;font-weight:700}p:last-child{margin-bottom:0}.button{display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin:0;border:0;background:transparent;color:#fff;text-decoration:none;-webkit-transition:all .3s ease;transition:all .3s ease}.button--big{padding:.68em 1.6em;font-size:20px;border-radius:50px}@media (min-width:600px){.button--big{font-size:26px}}.button--medium{padding:.95em 2em;font-size:16px;border-radius:50px}@media (min-width:600px){.button--medium{font-size:20px}}.button--blue{background-color:#4e00ff}.button--blue:hover{background-color:#7133ff}.button--orange{background-color:#f5ac32}.button--orange:hover{background-color:#f7c063}.button__icon{padding-left:1.6em}.button__text{font-weight:700}.button__sub-text{font-size:16px}.button--big .button__sub-text{font-size:20px}.button--medium .button__sub-text{font-size:16px}.text-bold{font-weight:700}.text-heavy{font-weight:900}.text-green{color:#169d00}.text-blue{color:#4e00ff}.text-dark-violet{color:#160047}.yellow-mark{display:inline-block;margin:0 6px;padding:3px 6px;background-color:#fff600;white-space:nowrap}.page{width:100%;overflow:hidden}.container{max-width:1240px;margin-right:auto;margin-left:auto;padding-right:20px;padding-left:20px}@media (min-width:1400px){.container{max-width:calc(83% + 40px)}}.sub-container{max-width:1100px;margin-right:auto;margin-left:auto}@media (min-width:1400px){.sub-container{max-width:91.6667%}}.pre-header{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;max-width:890px;margin-right:auto;margin-left:auto;padding:10px 20px;min-height:50px;font-size:14px}@media (min-width:600px){.pre-header{font-size:12px;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row}}@media (min-width:1000px){.pre-header{font-size:14px}}@media (min-width:1400px){.pre-header{max-width:calc(64% + 40px);font-size:16px}}.pre-header__row{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.pre-header__timer{display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin:0 6px;width:5.28em;height:1.67em;font-size:1.125em;border:1px solid #169d00}.pre-header__timer-num{position:relative;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:100%}.pre-header__timer-num:after{position:absolute;bottom:0;right:50%;padding:1px 3px;background-color:#fff;color:#160047;font-size:.5em;font-weight:400;-webkit-transform:translate(50%,50%);transform:translate(50%,50%)}.pre-header__timer-min:after{content:"M"}.pre-header__timer-sec:after{content:"S"}.pre-header__footnote{max-width:30%;text-align:center}.pre-header__footnote-text{font-size:.5em}.hero-header{width:100%;background-color:#fff3dc}.hero-header__wrapper{padding-top:80px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-ms-flex-wrap:wrap;flex-wrap:wrap;overflow:hidden}@media (min-width:1000px){.hero-header__wrapper{padding-top:0}}.hero-header__column{width:100%}@media (min-width:1000px){.hero-header__column{width:50%}}.hero-header__main{position:relative;z-index:1}@media (min-width:1000px){.hero-header__main{max-width:485px}}@media (min-width:1400px){.hero-header__main{max-width:89%}}.hero-header__title{margin-bottom:.5em;font-size:40px;text-align:center;line-height:1.1}@media (min-width:600px){.hero-header__title{font-size:60px}}.hero-header__main-text{margin-bottom:1.6667em;font-size:18px;text-align:center}@media (min-width:600px){.hero-header__main-text{font-size:24px}}.hero-header__button{margin-bottom:1.84em;min-width:90%}.hero-header__list{margin:0;padding:0 25px;list-style-type:none}.hero-header__list-item:before{content:"\F00C";font-family:Font Awesome\ 5 Free;font-weight:900;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1;display:inline-block;margin-right:.5em}.hero-header__picture img{width:145%;max-width:145%;margin-top:7px;margin-left:-23%;margin-bottom:-28%}.how-works{padding-top:60px;background-image:-webkit-gradient(linear,left top, left bottom,from(#f7f4ff),to(#fff));background-image:linear-gradient(180deg,#f7f4ff,#fff)}@media (min-width:600px){.how-works{padding-bottom:0}}.how-works__title{margin-bottom:1.5em;font-size:30px;font-weight:300;text-align:center}@media (min-width:600px){.how-works__title{font-size:40px}}.how-works__columns{margin-bottom:90px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-wrap:wrap;flex-wrap:wrap}.how-works__column{width:100%;text-align:center}@media (min-width:600px){.how-works__column{width:45%}}@media (min-width:1000px){.how-works__column{width:20%}}.how-works__column-picture{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.how-works__column-title{margin-top:1.6667em;margin-bottom:.7em;font-size:18px;font-weight:900}.how-works__column-text{font-size:16px}.how-works__pre-main{margin-bottom:30px;font-weight:700;color:#4e00ff;text-transform:uppercase}.how-works__main-wrap{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}.how-works__main-col{position:relative}.how-works__main-col--first{width:100%;padding-bottom:40px;z-index:3}@media (min-width:1000px){.how-works__main-col--first{width:44%}}.how-works__main-col--second{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}@media (min-width:600px){.how-works__main-col--second{width:50%;-webkit-box-ordinal-group:1;-ms-flex-order:0;order:0}}@media (min-width:1000px){.how-works__main-col--second{width:34%}}.how-works__main-col--third{width:100%;z-index:3}@media (min-width:600px){.how-works__main-col--third{width:50%}}@media (min-width:1000px){.how-works__main-col--third{width:22%}}.how-works__main-title{margin-bottom:.75em;font-size:26px;font-weight:700}@media (min-width:600px){.how-works__main-title{font-size:32px}}.how-works__main-text{margin-bottom:1.9em;font-size:16px}@media (min-width:600px){.how-works__main-text{font-size:18px}}.how-works__list{margin:0 0 2.1em;padding:0;list-style-type:none;font-size:14px;font-weight:700;color:#4e00ff;text-transform:uppercase}@media (min-width:600px){.how-works__list{font-size:18px}}.how-works__list-item{margin-bottom:1em}.how-works__list-item:last-of-type{margin-bottom:0}.how-works__list-item:before{content:"\F00C";font-family:Font Awesome\ 5 Free;font-size:28px;font-weight:900;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1;display:inline-block;color:#ffc600;margin-right:.6em;vertical-align:sub}@media (min-width:600px){.how-works__list-item:before{font-size:32px}}.how-works__main-bottom{padding:0 20px}.how-works__award{display:-webkit-box;display:-ms-flexbox;display:flex;margin-bottom:2.22em;color:#a89dc7;font-size:14px;font-weight:700}@media (min-width:600px){.how-works__award{max-width:72%;font-size:18px}}.how-works__award-icon{font-size:39px;-ms-flex-negative:0;flex-shrink:0}.how-works__award-text{margin-left:18px}.how-works__group-image{position:relative;width:100%}.how-works__bg{position:absolute;top:-10%;left:50%;max-width:130%;width:130%;height:auto;-webkit-transform:translateX(-50%);transform:translateX(-50%);z-index:1}.how-works__photo{position:relative;z-index:2}@media (min-width:600px){.how-works__photo{max-width:370px;width:108%}}.how-works__before{text-align:right}.how-works__before-quote{margin-bottom:1.33em;font-size:19px}@media (min-width:600px){.how-works__before-quote{font-size:21px}}.how-works__before-footnote{margin-bottom:1.25em;font-weight:700}.how-works__before-figure{display:inline-block}.how-works__before-caption{margin-top:1em;font-weight:700;text-transform:uppercase;text-align:center}
